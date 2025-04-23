@@ -1,0 +1,31 @@
+[
+    {
+        "tittle": "cypress",
+        "imageSrc": "skills/cypress-img.png"
+    },
+
+    {
+        "tittle": "gitlab",
+        "imageSrc": "skills/gitlab-img.png"
+    },
+    {
+        "tittle": "jira",
+        "imageSrc": "skills/jira-img.png"
+    },
+    {
+        "tittle": "mysql",
+        "imageSrc": "skills/mySQL-img.png"
+    },
+    {
+        "tittle": "postman",
+        "imageSrc": "skills/postman-img.png"
+    },
+    {
+        "tittle": "notion",
+        "imageSrc": "skills/notionRemoved.png"
+    },
+    {
+        "tittle": "react",
+        "imageSrc": "skills/reactRemoved.png"
+    }
+]

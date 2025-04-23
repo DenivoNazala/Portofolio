@@ -1,0 +1,35 @@
+[
+    {
+        "role": "Quality Assurance Testes, Internship",
+        "organisation": "PT Sekawan Media",
+        "startDate": "Sept, 2024",
+        "endDate": "Present",
+        "experiences": [
+            "Testing several website",
+            "Reported bug"
+        ],
+        "imageSrc": "history/sekawanmedia.png"
+    },
+    {
+        "role": "Cypress Bootcamp",
+        "organisation": "After Office",
+        "startDate": "Apr, 2025",
+        "endDate": "May, 2025",
+        "experiences": [
+            "Worked on component library",
+            "Helped create UI components"
+        ],
+        "imageSrc": "history/bootcamp-img.png"
+    },
+    {
+        "role": "Industrial Classes",
+        "organisation": "PT DOT Indonesia",
+        "startDate": "Aug, 2024",
+        "endDate": "Nov, 2024",
+        "experiences": [
+            "Learnt how to build a test scenario",
+            "Completed assignments both individually and in groups."
+        ],
+        "imageSrc": "history/dot.png"
+    }
+]
