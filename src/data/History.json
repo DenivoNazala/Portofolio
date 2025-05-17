@@ -1,12 +1,12 @@
 [
     {
-        "role": "Quality Assurance Testes, Internship",
+        "role": "Quality Assurance Tester, Internship",
         "organisation": "PT Sekawan Media",
         "startDate": "Sept, 2024",
-        "endDate": "Present",
+        "endDate": "May, 2025",
         "experiences": [
-            "Testing several website",
-            "Reported bug"
+            "Created and executed test plans for 5+ web and mobile app projects",
+            "Reported and documented bugs using notion, and collaborated with developers for issue resolution."
         ],
         "imageSrc": "history/sekawanmedia.png"
     },
@@ -16,8 +16,8 @@
         "startDate": "Apr, 2025",
         "endDate": "May, 2025",
         "experiences": [
-            "Worked on component library",
-            "Helped create UI components"
+            "Intensive training focused on automation testing tools and frameworks.",
+            "Learned and practiced using tools such as Playwright, Selenium, Postman, and Git."
         ],
         "imageSrc": "history/bootcamp-img.png"
     },
@@ -27,8 +27,8 @@
         "startDate": "Aug, 2024",
         "endDate": "Nov, 2024",
         "experiences": [
-            "Learnt how to build a test scenario",
-            "Completed assignments both individually and in groups."
+            "Participated in a professional training program focused on manual software testing concepts and workflows.",
+            "Gained knowledge in software development life cycle (SDLC) and testing life cycle (STLC)."
         ],
         "imageSrc": "history/dot.png"
     }

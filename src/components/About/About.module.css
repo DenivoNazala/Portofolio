@@ -2,9 +2,9 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
+    background-color: rgba(215, 231, 255, 1);
     border-radius: 15px;
-    padding: 73px;
+    padding: 40px 60px;
     margin-top: 129px;
     z-index: 1;
     margin-left: 10%;
@@ -27,6 +27,7 @@
 
 .aboutImage {
     width: 35%;
+    margin-right: 15px
 }
 
 .aboutItems {
@@ -43,10 +44,11 @@
     border-radius: 20px;
     list-style: none;
     padding: 25px;
-    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42)0%, rgba(255, 255, 255, 0)100%);
+    background-image: linear-gradient(90deg, rgba(8, 91, 215, 0.30)0%, rgba(255, 215, 232, 0)90%);
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
+    gap: 15px;
 }
 
 .aboutItem:hover {

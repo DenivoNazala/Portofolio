@@ -24,8 +24,8 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1)70%, rgba(255, 255, 255, 0)120%);
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1)70%, rgba(215, 231, 255, 0)120%);
+    -webkit-text-fill-color: #1B3573;
     -webkit-background-clip: text;
 
 }
@@ -34,12 +34,13 @@
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
+    margin-right: 24px; 
 }
 
 .contactBtn {
     text-decoration: none;
     background-color: var(--color-primary);
-    color: var(--color-text);
+    color: #fff;
     border-radius: 100px;
     font-size: 30px;
     font-weight: 600;
@@ -75,10 +76,10 @@
     height: 50vw;
     min-width: 350px;
     min-width: 350px;
-    top: -128px;
-    left: -10vw;
+    top: -246px;
+    left: -25vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(215, 231, 255, 1);
     filter: blur(100px);
     z-index: 0;
 }
@@ -90,9 +91,9 @@
     min-width: 350px;
     min-width: 250px;
     top: 246px;
-    right: -25vw;
+    right: -35vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(215, 231, 255, 1);
     filter: blur(100px);
     z-index: 0;
 }
@@ -102,6 +103,9 @@
         flex-direction: column-reverse;
     }
     .content {
+        display: flex;
+        flex-direction: column; /* atau row, tergantung isi */
         align-items: center;
+        text-align: center; /* ini agar text-nya center juga */
     }
 }

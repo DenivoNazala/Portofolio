@@ -11,17 +11,17 @@ export const Contacts = () => {
         <ul className={styles.links}>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/emailIcon.png")} alt='email icon'/>
-                <a href="mailto:denivonazala19@gmail.com">denivonazala19@gmail.com</a>
+                <a href="mailto:denivonazala19@gmail.com" target="_blank" rel="noopener noreferrer">denivonazala19@gmail.com</a>
             </li>
 
             <li className={styles.link}>
                 <img src={getImageUrl("contact/linkedinIcon.png")} alt='linkedIn icon'/>
-                <a href="https://www.linkedin.com/in/denivo-candrania-b49456270/">linkedIn.com/DenivoCandrania</a>
+                <a href="https://www.linkedin.com/in/denivo-candrania-b49456270/" target="_blank" rel="noopener noreferrer">linkedIn.com/DenivoCandrania</a>
             </li>
 
             <li className={styles.link}>
                 <img src={getImageUrl("contact/githubIcon.png")} alt='github icon'/>
-                <a href="https://github.com/DenivoNazala">github.com/DenivoNazala</a>
+                <a href="https://github.com/DenivoNazala" target="_blank" rel="noopener noreferrer">github.com/DenivoNazala</a>
             </li>
         </ul>
     </footer>
