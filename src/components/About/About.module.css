@@ -5,7 +5,7 @@
     /* background-color: rgba(215, 231, 255, 1); */
     /* border-radius: 15px;
     padding: 40px 60px; */
-    margin-top: 129px;
+    margin-top: 140px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -17,7 +17,12 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    text-align: left;
 }
+
+
 
 .content {
     display: flex;
@@ -49,6 +54,7 @@
     background-repeat: no-repeat;
     transition: 0.4s;
     gap: 15px;
+    
 }
 
 .aboutItem:hover {
@@ -61,7 +67,7 @@
 }
 
 .aboutItem p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 830px) {
