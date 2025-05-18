@@ -6,7 +6,7 @@ export const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h4 className={styles.tittle}>Hi, I am Ivo</h4>
+                <h4 className={styles.tittle}>Hi, I'm Ivo</h4>
                 <p className={styles.description}>I am a Software Quality Assurance with one year of experience in manual testing. Every project tells a story. Here's mine.
                 </p>
                 <a
