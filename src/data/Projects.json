@@ -1,26 +1,26 @@
 [
     {
       "title": "Cypress Bootcamp",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "evidence": "https://www.example.com",
+      "imageSrc": "projects/Sertif.png",
+      "description": "Gained practical experience in designing, writing, and executing automated test scripts.",
+      "skills": ["Mocha", "Chai", "Postman"],
+      "evidence": "https://github.com/DenivoNazala/afterOffice-tugas2",
       "source": "https://www.github.com"
     },
     {
       "title": "Internship",
       "imageSrc": "projects/Internship.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Built test cases", "Team work", "Node"],
+      "description": "Developed test cases and reported bugs for over 5 projects during a 7-month internship.",
+      "skills": ["Built test cases", "Team work"],
       "evidence": "https://drive.google.com/file/d/1XLv4-EmLq_8nkfSNpc1e-yJzNrwXT5bf/view?usp=sharing",
       "source": "https://www.github.com"
     },
     {
       "title": "Industrial Class Project",
       "imageSrc": "projects/kelasIndustri.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "evidence": "",
+      "description": "Gained foundational knowledge in manual testing and STLC through a 3-month industrial class.",
+      "skills": ["Git Lab", "Google workspace"],
+      "evidence": "https://docs.google.com/spreadsheets/d/1wJWA3yuqSBeNlOHN9FG-TqIPLVelT8VeU3bPUtyAm08/edit?usp=sharing",
       "source": "https://www.github.com"
     }
   ]

@@ -1,4 +1,15 @@
 [
+        {
+        "role": "Cypress Bootcamp",
+        "organisation": "After Office",
+        "startDate": "Apr, 2025",
+        "endDate": "Present",
+        "experiences": [
+            "Intensive training focused on automation testing tools and frameworks.",
+            "Learned and practiced using tools such as Cypress, Postman, and Git."
+        ],
+        "imageSrc": "history/bootcamp-img.png"
+    },
     {
         "role": "Quality Assurance Tester, Internship",
         "organisation": "PT Sekawan Media",
@@ -9,17 +20,6 @@
             "Reported and documented bugs using notion, and collaborated with developers for issue resolution."
         ],
         "imageSrc": "history/sekawanmedia.png"
-    },
-    {
-        "role": "Cypress Bootcamp",
-        "organisation": "After Office",
-        "startDate": "Apr, 2025",
-        "endDate": "May, 2025",
-        "experiences": [
-            "Intensive training focused on automation testing tools and frameworks.",
-            "Learned and practiced using tools such as Playwright, Selenium, Postman, and Git."
-        ],
-        "imageSrc": "history/bootcamp-img.png"
     },
     {
         "role": "Industrial Classes",

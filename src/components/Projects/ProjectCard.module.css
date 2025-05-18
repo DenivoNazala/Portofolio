@@ -3,23 +3,24 @@
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between; 
     border-radius: 10px;
     background: linear-gradient(180deg, #fff 0%, #9CBEF0);
     box-shadow: 0 16px 14px 0 #97B7E6;
     padding: 18px 24px;
     max-width: 300px;
+    min-height: 450px; 
+    box-sizing: border-box;
 }
-
 .image {
     display: block;
-    width: 100%;
-    max-width: 600px;  /* Adjust based on layout */
-    height: auto;
+    width: 250px;         /* Atur lebar tetap */
+    height: 200px;        /* Atur tinggi tetap */
     margin-bottom: 26px;
-    border-radius: 12px;         /* Rounded corners */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);  /* Soft shadow */
-    object-fit: cover;
-    transition: transform 0.3s ease;  /* Smooth zoom on hover */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    object-fit: cover;    /* Crop bagian luar agar tetap proporsional */
+    transition: transform 0.3s ease;
 }
 
 .title {
@@ -29,8 +30,9 @@
 
 .description {
     margin-top: 6px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
+    min-height: 80px; 
 } 
 
 .skills {
@@ -41,18 +43,20 @@
     flex-wrap: wrap;
     gap: 6px;
     list-style: none;
+    min-height: 40px; 
 }
 
 .skill {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     border-radius: 100px;
     background-color: #97B7E6;
     padding: 2px 22px;
 }
 
+
 .links {
-    width: 100px;
+    width: 100%;
     margin-top: 26px;
     display: flex;
     justify-content: space-around;
@@ -61,10 +65,13 @@
 .link {
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 22px;
+    margin-bottom: 20px;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }

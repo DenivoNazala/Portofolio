@@ -18,14 +18,11 @@
     },
     {
         "tittle": "postman",
-        "imageSrc": "skills/postman-img.png"
+        "imageSrc": "skills/postman2.png"
     },
     {
         "tittle": "notion",
         "imageSrc": "skills/notionRemoved.png"
-    },
-    {
-        "tittle": "react",
-        "imageSrc": "skills/reactRemoved.png"
     }
+   
 ]

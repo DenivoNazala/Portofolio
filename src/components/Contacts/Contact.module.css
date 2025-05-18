@@ -2,26 +2,31 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 120px;
+    margin-top: 90px;
     background-color: var(--color-secondary);
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
-    padding: 20px 5%;
-    gap: 10px;
+    padding: 15px 5%;
+    gap: 8px;
+    padding-bottom: 2.5%;
 }
 
 .text h2{
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 4px ;
+    margin-top: 20px;
+    justify-content: center;
 }
 
 .text p{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 400;
     letter-spacing: 2px;
+    margin-top: 15px;
 }
+
 
 .links {
     display: flex;
@@ -29,6 +34,7 @@
     align-items: flex-start;
     list-style: none;
     gap: 26px;
+    padding-top: 2%;
 }
 
 .link {
@@ -40,7 +46,7 @@
 .link a{
     color: var(--color-text);
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 1.5px;
 
@@ -55,11 +61,13 @@
     .text {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; /* Rata kiri */
+        text-align: left;
     }
 
-    .links{
-        align-items: center;
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Rata kiri */
     }
-    
 }
