@@ -61,14 +61,14 @@
     .text {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Rata kiri */
+        align-items: center;
         text-align: left;
     }
 
     .links {
         display: flex;
         flex-direction: column;
-        align-items: flex-start; /* Rata kiri */
+        align-items: flex-start; 
         margin-bottom: 5%;
     }
 }

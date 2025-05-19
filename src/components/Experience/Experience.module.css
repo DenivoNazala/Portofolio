@@ -74,7 +74,7 @@
 .history {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch; /* Penting: stretch semua item agar sejajar */
+    align-items: stretch; 
     gap: 9px;
     list-style: none;
     padding: 0;
@@ -86,7 +86,7 @@
     min-width: 300px;
     display: flex;
     gap: 16px;
-    align-items: flex-start; /* pastikan atasnya sejajar */
+    align-items: flex-start; 
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 8px;
@@ -130,6 +130,15 @@
     margin-left: 17px;
 }
 
+
+
+.bounceArrow {
+  display: none;
+}
+
+
+
+
 @media  screen and (max-width: 830px) {
     .content {
         flex-direction: column;
@@ -161,6 +170,36 @@
         font-size: 18px;
         word-break: break-word;
     }
+
+     .scrollHint {
+    display: flex;
+    
+  }
+   .bounceArrow {
+    display: inline-block; 
+    width: 16px;
+    height: auto;
+    animation: bounce 1s infinite;
+  }
+  .bounceArrow:first-child {
+  animation: bounceLeft 1.4s infinite;
+  width: 40px;
+  height: 40px;
+}
+.bounceArrow:last-child {
+  animation: bounceRight 1.4s infinite;
+}
+
+@keyframes bounceLeft {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-10px); }
+}
+
+@keyframes bounceRight {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+}
+ 
 }
 
 @media (max-width: 768px) {
@@ -168,6 +207,34 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 40px;
   }
+
+   .bounceArrow {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    animation: bounce 1s infinite;
+  }
+
+  .bounceArrow:first-child {
+    animation: bounceLeft 1.4s infinite;
+    width: 20px; 
+    height: 20px;
+  }
+
+  .bounceArrow:last-child {
+    animation: bounceRight 1.4s infinite;
+  }
+}
+
+@keyframes bounceLeft {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-6px); }
+}
+
+@keyframes bounceRight {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(6px); }
+
 }
 
 @media (max-width: 480px) {

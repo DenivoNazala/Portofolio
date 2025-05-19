@@ -1,5 +1,6 @@
 import React from 'react'
 import skills from "../../data/Skills.json"
+// import arrow from "../../"
 import history from "../../data/History.json"
 import styles from "./Experience.module.css"
 import { getImageUrl } from '../Navbar/utils'
@@ -7,7 +8,9 @@ export const Experience = () => {
     return (
         <section className={styles.container} id="experience">
             <h2 className={styles.tittle}>Experience</h2>
-            <div>
+            <div className={styles.scrollHint}>
+               <img src="/assets/history/arrow3.png" className={styles.bounceArrow} alt="arrow icon" />
+
                 <ul className={styles.history}>
                     {history.map((historyItem, id) => {
                         return (

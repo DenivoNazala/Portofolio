@@ -24,7 +24,7 @@
 }
 
 .menuBtn {
-    display: none; /* ⛔️ Default: hidden (desktop) */   
+    display: none;    
     width: 35px;
     height: 35px;
     cursor: pointer;
@@ -59,7 +59,7 @@
     }
 
     .menuBtn {
-        display: block; /* ✅ Tampilkan hanya di mobile */
+        display: block; 
     }
 
     .menuItems {

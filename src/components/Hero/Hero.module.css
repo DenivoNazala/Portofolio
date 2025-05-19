@@ -29,13 +29,13 @@
     background: linear-gradient(90deg, rgba(255, 255, 255, 1)70%, rgba(215, 231, 255, 0)120%);
     -webkit-text-fill-color: #1B3573;
     -webkit-background-clip: text;
-    
+    margin-top: 27px;
 
 }
 
 
 .description {
-    font-size: 35px;
+    font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
     margin-right: 24px; 
@@ -107,8 +107,8 @@
     }
     .content {
         display: flex;
-        flex-direction: column; /* atau row, tergantung isi */
+        flex-direction: column; 
         align-items: center;
-        text-align: center; /* ini agar text-nya center juga */
+        text-align: center; 
     }
 }
